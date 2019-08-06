@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 import java.util.Arrays;
 
@@ -100,6 +100,6 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] data = new int[]{-1,25,656,2, 25,-25,45,12,78,2,6,89};
         quickSort3(data,0,data.length-1);
-        Arrays.stream(data).forEach(System.out::println);
+        //Arrays.stream(data).forEach(System.out::println);
     }
 }

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 
 
@@ -12,7 +12,7 @@ public class InvertTree {
     public TreeNode invertTree(TreeNode root) {
         TreeNode returnNode = root;
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.offer(root);
 
         TreeNode queueHead, temp;
