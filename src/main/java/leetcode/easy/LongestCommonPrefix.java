@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.easy;
 
 /**
  * 最长子字符串
