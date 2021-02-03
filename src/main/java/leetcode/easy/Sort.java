@@ -99,7 +99,7 @@ public class Sort {
 
     /**
      * 冒泡排序
-     * 两两比较、大的挪到、后面
+     * 两两比较、大的挪到后面
      */
     public static void BubbleSort(int[] array) {
         int length = array.length;
