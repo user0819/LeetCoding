@@ -124,7 +124,7 @@ public class IntToRoman {
         int2RomanMap.put(900, "CM");
         int2RomanMap.put(1000, "M");
 
-        StringBuilder stringBuilder = new StringBuilder("");
+        StringBuilder stringBuilder = new StringBuilder();
         int thousandMod = num / 1000;
         for (int i = 0; i < thousandMod; i++) {
             stringBuilder.append(int2RomanMap.get(1000));
