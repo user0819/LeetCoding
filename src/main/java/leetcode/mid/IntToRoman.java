@@ -86,10 +86,10 @@ public class IntToRoman {
      * *
      */
     public static void main(String[] args) {
-
+        System.out.println(intToRoman(1994));
     }
 
-    public String intToRoman(int num) {
+    public static String intToRoman(int num) {
         if (num > 3999) {
             return "";
         }
@@ -121,23 +121,24 @@ public class IntToRoman {
         int2RomanMap.put(600, "DC");
         int2RomanMap.put(700, "DCC");
         int2RomanMap.put(800, "DCCC");
-        int2RomanMap.put(900, "MC");
+        int2RomanMap.put(900, "CM");
         int2RomanMap.put(1000, "M");
 
         StringBuilder stringBuilder = new StringBuilder("");
-        int tMod = num / 1000;
-        for (int i = 0; i < tMod; i++) {
+        int thousandMod = num / 1000;
+        for (int i = 0; i < thousandMod; i++) {
             stringBuilder.append(int2RomanMap.get(1000));
         }
         num %= 1000;
-        int hBit = num / 100 * 100;
-        stringBuilder.append(int2RomanMap.get(hBit));
-        num %= 1000;
-        int hBit = num / 100 * 100;
-        stringBuilder.append(int2RomanMap.get(hBit));
-        num %= 1000;
-        int hBit = num / 100 * 100;
-        stringBuilder.append(int2RomanMap.get(hBit));
+        int hundredBit = num / 100 * 100;
+        stringBuilder.append(int2RomanMap.get(hundredBit));
+        num %= 100;
+        int tenBit = num / 10 * 10;
+        stringBuilder.append(int2RomanMap.get(tenBit));
+        num %= 10;
+        int bit = num;
+        stringBuilder.append(int2RomanMap.get(bit));
 
+        return stringBuilder.toString();
     }
 }
