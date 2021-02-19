@@ -63,7 +63,7 @@ public class SearchRotationArray {
             if (target == nums[mid]) {
                 return mid;
             }
-            // 先根据 nums[mid] 与 nums[low] 的关系判断 mid 是在左段还是右段
+            // 先根据 nums[mid] 与 nums[low] 的关系判断 ，mid左边是有序的，还是mid右边是有序的
             if (nums[mid] >= nums[low]) {
                 // 再判断 target 是在 mid 的左边还是右边，从而调整左右边界 low 和 high
                 if (target >= nums[low] && target < nums[mid]) {
