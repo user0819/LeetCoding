@@ -71,4 +71,6 @@ public class IsPalindrome {
         IsPalindrome demo = new IsPalindrome();
         System.out.println(demo.isPalindrome("race a car"));
     }
+
+
 }
