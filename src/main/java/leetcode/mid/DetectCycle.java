@@ -1,4 +1,4 @@
-package leetcode.middle;
+package leetcode.mid;
 
 /**
  * 142

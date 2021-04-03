@@ -64,7 +64,7 @@ public class LastStoneWeight {
             stones[stones.length - 2] = 0;
             Arrays.sort(stones);
         }
-        return stones[stones.length - 1]; 
+        return stones[stones.length - 1];
     }
 
 

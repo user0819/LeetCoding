@@ -1,4 +1,4 @@
-package leetcode.middle;
+package leetcode.mid;
 
 import leetcode.util.ArrayUtils;
 
