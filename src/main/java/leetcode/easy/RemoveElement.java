@@ -90,11 +90,11 @@ public class RemoveElement {
     }
 
     //思路：遇到val值，则将后面的数直接替换到当前位置O(n)
-    public static int removeElement2(int[] nums, int val) {
-        int tail=nums.length;
-        for(int i=0;i<tail;i++){
-            if(nums[i]==val){
-                nums[i--]=nums[--tail];
+    public static int  removeElement2(int[] nums, int val) {
+        int tail = nums.length;
+        for (int i = 0; i < tail; i++) {
+            if(nums[i] == val){
+                nums[i--] = nums[--tail];
             }
         }
         return tail;
