@@ -41,7 +41,7 @@ package leetcode.mid;
  */
 public class CanJump {
     public static void main(String[] args) {
-        System.out.println(canJump(new int[]{3,2,1,0,4}));
+        System.out.println(canJump2(new int[]{2,3,1,1,4}));
     }
 
     //找到能跳到末尾的最小index，再找到能跳到index的，直到index回到0
@@ -66,5 +66,32 @@ public class CanJump {
             }
         }
         return -1;
+    }
+
+    //官方解答
+    public static boolean canJump2(int[] nums){
+        int maxRight = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if(i <= maxRight){
+                maxRight = Math.max(maxRight, i + nums[i]);
+                if(maxRight >= nums.length -1){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
+    //同思路他人更优解:从末尾反查
+    public static boolean canJump3(int[] nums){
+        int canJumpIndex = nums.length - 1;
+
+        for (int i = canJumpIndex -1; i >= 0 ; i--) {
+            if (nums[i] + i >= canJumpIndex){
+                canJumpIndex = i;
+            }
+        }
+        return canJumpIndex == 0;
     }
 }
