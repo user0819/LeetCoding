@@ -45,7 +45,28 @@ public class StrStr {
         return -1;
     }
 
+    public static int strStr2(String haystack, String needle) {
+        if (needle == null || needle.length() == 0) {
+            return 0;
+        }
+
+        for (int i = 0; i < haystack.length() - needle.length() + 1; i++) {
+            boolean containsFlag = true;
+            for (int j = 0; j < needle.length(); j++) {
+                if (needle.charAt(j) != haystack.charAt(i + j)) {
+                    containsFlag = false;
+                    break;
+                }
+            }
+            if (containsFlag) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+
     public static void main(String[] args) {
-        System.out.println(strStr("hello_pp","pp"));
+        System.out.println(strStr2("hello_pp", "pp"));
     }
 }
