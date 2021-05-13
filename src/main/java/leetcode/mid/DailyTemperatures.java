@@ -8,7 +8,7 @@ package leetcode.mid;
  *
  *  提示：气温 列表长度的范围是 [1, 30000]。每个气温的值的均为华氏度，都是在 [30, 100] 范围内的整数。
  *  Related Topics 栈 哈希表
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/26 10:18
  */
 public class DailyTemperatures {

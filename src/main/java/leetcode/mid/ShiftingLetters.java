@@ -3,7 +3,7 @@ package leetcode.mid;
 import java.util.Arrays;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/6/2 13:04
  */
 public class ShiftingLetters {

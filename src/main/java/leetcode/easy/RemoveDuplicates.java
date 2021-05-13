@@ -29,7 +29,7 @@ import java.util.Stack;
  *  S 仅由小写英文字母组成。
  *
  *  Related Topics 栈
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/25 19:15
  */
 public class RemoveDuplicates {

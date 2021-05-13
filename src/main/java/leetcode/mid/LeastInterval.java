@@ -49,7 +49,7 @@ package leetcode.mid;
  *  1 <= task.length <= 104
  *  tasks[i] 是大写英文字母
  *  n 的取值范围为 [0, 100]
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/16 16:52
  */
 public class LeastInterval {

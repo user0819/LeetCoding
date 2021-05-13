@@ -22,7 +22,7 @@ import java.util.Map;
  * 1 <= nums.length <= 3 * 104
  * -231 <= nums[i] <= 231 - 1
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/30 11:03
  */
 public class SingleNumber {

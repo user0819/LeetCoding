@@ -1,7 +1,7 @@
 package leetcode.easy;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/3/31 12:52
  */
 public class LongestPalindrome {

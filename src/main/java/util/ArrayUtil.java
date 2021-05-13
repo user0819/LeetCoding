@@ -1,7 +1,7 @@
 package util;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/11/13 16:04
  */
 public class ArrayUtil {

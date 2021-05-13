@@ -34,7 +34,7 @@ package leetcode.easy;
  *
  *  注意: 给定的矩阵grid 的长度和宽度都不超过 50。
  *  Related Topics 深度优先搜索 数组
- * @author wangxiang
+ * @author XIANG
  * @since 2020/11/20 14:59
  */
 public class MaxAreaOfIsland {

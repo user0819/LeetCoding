@@ -47,7 +47,7 @@ package leetcode.easy;
  * 开往 1 号加油站，此时油箱有 3 - 3 + 3 = 3 升汽油
  * 你无法返回 2 号加油站，因为返程需要消耗 4 升汽油，但是你的油箱只有 3 升汽油。
  * 因此，无论怎样，你都不可能绕环路行驶一周。
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/16 17:10
  */
 public class CanCompleteCircuit {

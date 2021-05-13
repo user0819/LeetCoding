@@ -4,7 +4,7 @@ package leetcode.easy;
  * 最长子字符串
  * Simple
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2020/4/28 12:46
  */
 public class LongestCommonPrefix {

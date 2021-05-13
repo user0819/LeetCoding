@@ -35,7 +35,7 @@ package leetcode.easy;
  * Related Topics 贪心算法 数组
  * 👍 326 👎 0
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/29 19:44
  */
 public class CanPlaceFlowers {

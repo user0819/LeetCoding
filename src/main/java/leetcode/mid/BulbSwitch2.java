@@ -31,7 +31,7 @@ package leetcode.mid;
  *  输入: n = 3, m = 1.
  * 输出: 4
  * 说明: 状态为: [关, 开, 关], [开, 关, 开], [关, 关, 关], [关, 开, 开].
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/19 17:44
  */
 public class BulbSwitch2 {

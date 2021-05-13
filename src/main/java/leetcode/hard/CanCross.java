@@ -29,7 +29,7 @@ import java.util.Map;
  * 解释：这是因为第 5 和第 6 个石子之间的间距太大，没有可选的方案供青蛙跳跃过去。
  *  
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/29 10:43
  */
 public class CanCross {

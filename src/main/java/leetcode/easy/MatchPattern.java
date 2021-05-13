@@ -1,7 +1,7 @@
 package leetcode.easy;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/4/10 13:04
  */
 public class MatchPattern {

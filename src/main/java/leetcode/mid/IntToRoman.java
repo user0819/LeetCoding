@@ -70,7 +70,7 @@ import java.util.Map;
  * <p>
  * 1 <= num <= 3999
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/3 9:36
  */
 public class IntToRoman {

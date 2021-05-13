@@ -52,7 +52,7 @@ package leetcode.mid;
  * 链接：https://leetcode-cn.com/problems/decode-ways
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/21 13:41
  */
 public class NumDecodes {

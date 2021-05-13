@@ -55,7 +55,7 @@ import java.util.Stack;
  *  s[i] 可能是 '('、')' 或英文小写字母
  *
  *  Related Topics 栈 字符串
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/1 10:05
  */
 public class MinRemoveToMakeValid {

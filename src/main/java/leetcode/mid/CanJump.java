@@ -36,7 +36,7 @@ package leetcode.mid;
  *
  *  Related Topics 贪心算法 数组
  *  👍 1115 👎 0
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/31 11:36
  */
 public class CanJump {

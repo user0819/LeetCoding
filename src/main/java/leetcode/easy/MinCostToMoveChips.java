@@ -42,7 +42,7 @@ package leetcode.easy;
  *
  *  Related Topics 贪心算法 数组 数学
  *  👍 81 👎 0
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/30 16:51
  */
 public class MinCostToMoveChips {

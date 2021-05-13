@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2021/5/10 11:38
  */
 public class TreeNodeTraversal {

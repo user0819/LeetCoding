@@ -1,7 +1,7 @@
 package leetcode.easy;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/9/2 9:24
  */
 public class MySqrt {

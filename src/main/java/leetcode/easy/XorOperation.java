@@ -38,7 +38,7 @@ package leetcode.easy;
  * 0 <= start <= 1000
  * n == nums.length
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/5/7 9:44
  */
 public class XorOperation {

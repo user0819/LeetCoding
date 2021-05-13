@@ -1,7 +1,7 @@
 package leetcode.easy;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/27 19:59
  */
 public class LastRemaining {

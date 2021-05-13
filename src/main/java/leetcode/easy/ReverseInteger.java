@@ -1,7 +1,7 @@
 package leetcode.easy;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/4/2 13:01
  */
 public class ReverseInteger {

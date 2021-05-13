@@ -1,7 +1,7 @@
 package sort;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/3/19 12:46
  */
 public class MergeSort {

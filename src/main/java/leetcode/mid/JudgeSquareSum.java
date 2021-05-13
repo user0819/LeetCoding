@@ -31,7 +31,7 @@ package leetcode.mid;
  * 输入：c = 1
  * 输出：true
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/28 12:59
  */
 public class JudgeSquareSum {

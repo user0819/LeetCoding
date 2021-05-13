@@ -32,7 +32,7 @@ package leetcode.hard;
  *  0 <= height[i] <= 105
  *
  *  Related Topics 栈 数组 双指针 动态规划
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/2 10:19
  */
 public class Trap {

@@ -65,7 +65,7 @@ import java.util.List;
  * 1 <= n <= 100
  * target 是严格递增的
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/25 19:26
  */
 public class BuildArray {

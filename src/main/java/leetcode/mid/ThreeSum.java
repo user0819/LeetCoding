@@ -47,7 +47,7 @@ import java.util.Set;
  * <p>
  * Related Topics 数组 双指针
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/4 9:56
  */
 public class ThreeSum {

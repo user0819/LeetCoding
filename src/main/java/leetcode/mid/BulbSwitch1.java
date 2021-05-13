@@ -40,7 +40,7 @@ package leetcode.mid;
  * 输入：n = 1
  * 输出：1
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/19 17:00
  */
 public class BulbSwitch1 {

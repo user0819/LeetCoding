@@ -15,7 +15,7 @@ import java.util.List;
  *   [-1, -1, 2]
  * ]
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2020/5/11 13:01
  */
 public class ThreeSumEqualsZero {

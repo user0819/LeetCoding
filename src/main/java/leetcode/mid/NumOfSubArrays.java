@@ -53,7 +53,7 @@ package leetcode.mid;
  * Related Topics 数组
  * 👍 27 👎 0
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/18 11:16
  */
 public class NumOfSubArrays {

@@ -60,7 +60,7 @@ package leetcode.mid;
  * Related Topics 数组 二分查找
  * 👍 246 👎 0
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/26 11:38
  */
 public class ShipWithinDays {

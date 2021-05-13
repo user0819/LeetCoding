@@ -45,7 +45,7 @@ package leetcode.mid;
  *
  *  Related Topics 堆 贪心算法
  *  👍 31 👎 0
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/8 10:22
  */
 public class EatenApples {

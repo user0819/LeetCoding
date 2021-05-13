@@ -28,7 +28,7 @@ import java.util.List;
  * nums 中的所有整数 互不相同
  *
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/23 12:55
  */
 public class LargestDivisibleSubset {

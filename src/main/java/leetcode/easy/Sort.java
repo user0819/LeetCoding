@@ -4,7 +4,7 @@ package leetcode.easy;
 import util.ArrayUtil;
 
 /**
- * @author wangxiang
+ * @author XIANG
  * @since 2020/11/13 9:19
  */
 public class Sort {

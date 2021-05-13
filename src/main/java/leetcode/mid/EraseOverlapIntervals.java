@@ -24,7 +24,7 @@ import java.util.Comparator;
  * 输入: [ [1,2], [2,3] ]
  * 输出: 0
  * 解释: 你不需要移除任何区间，因为它们已经是无重叠的了。
- * @author wangxiang
+ * @author XIANG
  * @since 2020/11/3 9:36
  */
 public class EraseOverlapIntervals {

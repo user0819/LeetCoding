@@ -39,7 +39,7 @@ package leetcode.mid;
  * nums 肯定会在某个点上旋转
  * -10^4 <= target <= 10^4
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/19 10:20
  */
 public class SearchRotationArray {

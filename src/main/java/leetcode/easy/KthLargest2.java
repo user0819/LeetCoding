@@ -46,7 +46,7 @@ import java.util.PriorityQueue;
  * <p>
  * Related Topics 堆 设计
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/3 10:01
  */
 public class KthLargest2 {

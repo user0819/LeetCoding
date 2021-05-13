@@ -38,7 +38,7 @@ import java.util.Arrays;
  * 链接：https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/5/8 10:30
  */
 public class MinimumTimeRequired {

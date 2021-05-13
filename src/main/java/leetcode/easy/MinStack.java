@@ -30,7 +30,7 @@ package leetcode.easy;
  * minStack.pop();
  * minStack.top();      --> 返回 0.
  * minStack.getMin();   --> 返回 -2.
- * @author wangxiang
+ * @author XIANG
  * @since 2021/2/20 10:29
  */
 public class MinStack {

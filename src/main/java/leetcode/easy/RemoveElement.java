@@ -62,7 +62,7 @@ import util.ArrayUtil;
  * Related Topics 数组 双指针
  * 👍 864 👎 0
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/4/19 10:17
  */
 public class RemoveElement {

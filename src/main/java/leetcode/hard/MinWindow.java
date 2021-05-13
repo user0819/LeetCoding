@@ -20,7 +20,7 @@ package leetcode.hard;
  * <p>
  * 进阶：你能设计一个在 o(n) 时间内解决此问题的算法吗？ Related Topics 哈希表 双指针 字符串 Sliding Window
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2020/11/5 9:33
  */
 public class MinWindow {

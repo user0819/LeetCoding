@@ -57,7 +57,7 @@ import java.util.Map;
  * <p>
  * Related Topics 数学 动态规划
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/1/5 11:57
  */
 public class MinDistance {

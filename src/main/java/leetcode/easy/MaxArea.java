@@ -5,7 +5,7 @@ package leetcode.easy;
  * 在坐标内画 n 条垂直线，垂直线 i 的两个端点分别为 (i, ai) 和 (i, 0)。
  * 找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水。
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2020/4/11 13:33
  */
 public class MaxArea {

@@ -38,7 +38,7 @@ import java.util.PriorityQueue;
  * <p>
  * Related Topics 堆 贪心算法
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/5 11:13
  */
 public class LastStoneWeight {

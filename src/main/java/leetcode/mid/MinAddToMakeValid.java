@@ -53,7 +53,7 @@ import java.util.Stack;
  * <p>
  * Related Topics 栈 贪心算法
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/1 9:38
  */
 public class MinAddToMakeValid {

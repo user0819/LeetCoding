@@ -43,7 +43,7 @@ package leetcode.easy;
  *
  *  Related Topics 贪心算法 数组
  *  👍 1165 👎 0
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/31 10:56
  */
 public class MaxProfit {

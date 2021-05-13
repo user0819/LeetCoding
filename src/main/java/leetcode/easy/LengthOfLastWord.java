@@ -16,7 +16,7 @@ package leetcode.easy;
  * <p>
  * Related Topics 字符串
  *
- * @author wangxiang
+ * @author XIANG
  * @since 2020/8/14 9:32
  */
 public class LengthOfLastWord {

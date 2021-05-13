@@ -61,7 +61,7 @@ import java.util.Map;
  *
  *
  * leetcode submit region begin(Prohibit modification and deletion)
- * @author wangxiang
+ * @author XIANG
  * @since 2021/3/29 19:14
  */
 public class LemonadeChange {
