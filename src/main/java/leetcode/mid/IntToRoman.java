@@ -87,6 +87,8 @@ public class IntToRoman {
      */
     public static void main(String[] args) {
         System.out.println(intToRoman(1994));
+        System.out.println(intToRomanV2(1994));
+        System.out.println(intToRomanV3(1994));
     }
 
     public static String intToRoman(int num) {
@@ -140,5 +142,157 @@ public class IntToRoman {
         stringBuilder.append(int2RomanMap.get(bit));
 
         return stringBuilder.toString();
+    }
+
+    public static String intToRomanV2(int num) {
+        if (num > 3999) {
+            return "";
+        }
+        StringBuilder sb = new StringBuilder();
+
+        //千位
+        int thousandBit = num / 1000;
+        num %= 1000;
+        for (int i = 0; i < thousandBit; i++) {
+            sb.append('M');
+        }
+
+        //百位
+        int hundredBit = num / 100;
+        num %= 100;
+
+        if (hundredBit == 9) {
+            sb.append("CM");
+            hundredBit = 0;
+        }
+
+        if (hundredBit >= 5) {
+            sb.append("D");
+            hundredBit %= 5;
+        }
+
+        if (hundredBit == 4) {
+            sb.append("CD");
+            hundredBit = 0;
+        }
+        for (int i = 0; i < hundredBit; i++) {
+            sb.append('C');
+        }
+
+
+        //十位
+        int tenBit = num / 10;
+        num %= 10;
+        if (tenBit == 9) {
+            sb.append("XC");
+            tenBit = 0;
+        }
+        if (tenBit >= 5) {
+            sb.append("L");
+            tenBit %= 5;
+        }
+        if (tenBit == 4) {
+            sb.append("XL");
+            tenBit = 0;
+        }
+        for (int i = 0; i < tenBit; i++) {
+            sb.append('X');
+        }
+
+
+        //个位
+        int singleBit = num;
+
+        if (singleBit == 9) {
+            sb.append("IX");
+            singleBit = 0;
+        }
+
+        if (singleBit >= 5) {
+            sb.append("V");
+            singleBit %= 5;
+        }
+
+        if (singleBit == 4) {
+            sb.append("IV");
+            singleBit = 0;
+        }
+        for (int i = 0; i < singleBit; i++) {
+            sb.append('I');
+        }
+
+        return sb.toString();
+    }
+
+
+    public static String intToRomanV3(int num) {
+        if (num > 3999) {
+            return "";
+        }
+        Map<Integer, String[]> map = new HashMap<>();
+        map.put(1, new String[]{"IX", "V", "IV", "I"});
+        map.put(10, new String[]{"XC", "L", "XL", "X"});
+        map.put(100, new String[]{"CM", "D", "CD", "C"});
+        map.put(1000, new String[]{"", "", "", "M"});
+
+        StringBuilder sb = new StringBuilder();
+        int subValue = 1000;
+        while (num != 0) {
+            int thisBit = num / subValue;
+            if (thisBit == 9) {
+                sb.append(map.get(subValue)[0]);
+                thisBit = 0;
+            }
+            if (thisBit >= 5) {
+                sb.append(map.get(subValue)[1]);
+                thisBit %= 5;
+            }
+            if (thisBit == 4) {
+                sb.append(map.get(subValue)[2]);
+                thisBit = 0;
+            }
+            for (int i = 0; i < thisBit; i++) {
+                sb.append(map.get(subValue)[3]);
+            }
+            num %= subValue;
+            subValue /= 10;
+        }
+
+        return sb.toString();
+    }
+
+
+    String[] thousands = {"", "M", "MM", "MMM"};
+    String[] hundreds = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+    String[] tens = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+    String[] ones = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+
+    public String intToRomanV4(int num) {
+        StringBuffer roman = new StringBuffer();
+        roman.append(thousands[num / 1000]);
+        roman.append(hundreds[num % 1000 / 100]);
+        roman.append(tens[num % 100 / 10]);
+        roman.append(ones[num % 10]);
+        return roman.toString();
+    }
+
+
+    int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    String[] symbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+    public String intToRomanV5(int num) {
+        StringBuffer roman = new StringBuffer();
+        for (int i = 0; i < values.length; ++i) {
+            int value = values[i];
+            String symbol = symbols[i];
+            while (num >= value) {
+                num -= value;
+                roman.append(symbol);
+            }
+            if (num == 0) {
+                break;
+            }
+        }
+        return roman.toString();
     }
 }

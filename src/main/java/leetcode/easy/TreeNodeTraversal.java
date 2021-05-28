@@ -1,7 +1,9 @@
 package leetcode.easy;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -12,7 +14,7 @@ public class TreeNodeTraversal {
     public static void main(String[] args) {
         TreeNode treeNode = TreeNode.initTreeNode();
         List<Integer> list = new ArrayList<>();
-        LDR2(treeNode, list);
+        depthTraversal(treeNode, list);
 
         list.forEach(System.out::println);
     }
@@ -114,4 +116,53 @@ public class TreeNodeTraversal {
             }
         }
     }
+
+    public static void depthTraversal(TreeNode rootNode, List<Integer> list){
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(rootNode);
+        while(!queue.isEmpty()){
+            TreeNode treeNode = queue.poll();
+            if(treeNode != null){
+                list.add(treeNode.val);
+                queue.add(treeNode.left);
+                queue.add(treeNode.right);
+            }
+        }
+    }
+
+
+
+    // x 的信息
+    int x;
+    TreeNode xParent;
+    int xDepth;
+    // y 的信息
+    int y;
+    TreeNode yParent;
+    int yDepth;
+
+    public boolean isCousins(TreeNode root, int x, int y) {
+        this.x = x;
+        this.y = y;
+        dfs(root, 0, null);
+        return xDepth == yDepth && xParent != yParent;
+    }
+
+    public void dfs(TreeNode node, int depth, TreeNode parent) {
+        if (node == null) {
+            return;
+        }
+
+        if (node.val == x) {
+            xParent = parent;
+            xDepth = depth;
+        } else if (node.val == y) {
+            yParent = parent;
+            yDepth = depth;
+        }
+
+        dfs(node.left, depth + 1, node);
+        dfs(node.right, depth + 1, node);
+    }
+
 }
