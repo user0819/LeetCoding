@@ -6,6 +6,8 @@ package leetcode.easy;
  */
 public class AddBinary {
     public static void main(String[] args) {
+
+        System.out.println(addBinary("111","0011"));
         System.out.println(addBinary("111","0011"));
     }
 
